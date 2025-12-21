@@ -227,3 +227,4 @@ C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\refint\MoneyFlow.
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\MoneyFlow.pdb
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\MoneyFlow.genruntimeconfig.cache
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\ref\MoneyFlow.dll
+C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\MoneyFlow.sourcelink.json
