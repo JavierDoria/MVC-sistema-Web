@@ -12,6 +12,7 @@ builder.Services.AddDbContext<AppDbContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("sqlstring"));
 });
 builder.Services.AddScoped<ServiceManager>();
+builder.Services.AddScoped<TransactionManager>();
 
 var app = builder.Build();
 

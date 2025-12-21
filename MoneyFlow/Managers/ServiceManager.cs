@@ -68,7 +68,15 @@ namespace MoneyFlow.Managers
             _dbContext.Service.Remove(entity);
             var affected_rows = _dbContext.SaveChanges();
             return affected_rows;
-
+        }
+        public List<ServiceVM>GetByType(int userId, string type)
+        {
+            var list = _dbContext.Service.Where(item => item.UserId==userId && item.Type==type).Select(item => new ServiceVM
+            {
+                ServiceId = item.ServiceId,
+                    Name = item.Name,
+            }).ToList();
+            return list;
         }
     }
 }

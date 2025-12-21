@@ -1,0 +1,100 @@
+﻿
+@{
+}
+
+<div class="row mt-4">
+    <div class="col.ms-6 offset-ms-3">
+        <h2>New Transaction</h2>
+
+        <form asp-controller="Service" asp-action="New" method="post">
+            <div class="mb-3">
+                <label class="form-label">Type</label>
+                <select class="form-select" id="cboTypeService">
+                    <option value="0" disabled selected></option>
+                    <option value="income">income</option>
+                    <option value="expense">expense</option>
+                </select>
+            </div>
+
+
+            <div class="mb-3">
+                <label class="form-label">Service</label>
+                <select class="form-select" id="cboService">
+                    <option ></option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Commnet</label>
+                <input type="text" class="form-control" id="txtCommnet" autocomplete="off">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Fecha</label>
+                <input type="date" class="form-control" id="txtDate" autocomplete="off">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Total Amount</label>
+                <input type="number" class="form-control" id="txtTotalAmount" autocomplete="off">
+            </div>
+
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-success" type="button">GUARDAR</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+@section Styles {
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <style>
+        .Select2-container .select2-selection--simgle{
+            height: 38px;
+            padding-top: 4px;
+        }
+    </style>
+}
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function() {
+               $('#cboService').select2({
+                   placeholder:"--select--",
+                   width:'100%'
+               });
+                $("#cboTypeService").on("change", ShowServices);
+           });
+                   async function ShowServices() {
+            const typeService = $("#cboTypeService").val();
+            if (!typeService) return;
+
+            try {
+                const response = await fetch(`/Transaction/ServicesByType?typeService=${typeService}`, {
+                    method: "GET",
+                    headers: { 'Content-Type': 'application/json;charset=utf-8' }
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+
+                    const serviceSelect = $("#cboService");
+                    serviceSelect.empty();
+                    serviceSelect.append(new Option("--select--", ""));
+
+                    data.forEach(item => {
+                        serviceSelect.append(new Option(item.name, item.serviceId));
+                    });
+
+                    serviceSelect.trigger("change.select2");
+                } else {
+                    console.error("Error HTTP:", response.status);
+                }
+            } catch (error) {
+                console.error("Error al cargar servicios:", error);
+            }
+        }
+           </script>
+       
+}
