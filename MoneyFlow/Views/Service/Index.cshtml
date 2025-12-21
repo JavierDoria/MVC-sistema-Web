@@ -1,0 +1,59 @@
+﻿@model List<MoneyFlow.Models.ServiceVM>
+@{
+}
+<div class="row">
+    <div class="col-sm-6">
+        <h2>Services</h2>
+    </div>
+    <div class="col-ms-6 text-end">
+        <a href="/Service/New" class="btn btn-success">New Service</a>
+    </div>
+</div>
+
+<hr />
+<div class="row">
+    <div class="col-sm-12">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th style="width:150px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Type</td>
+                        <td style="width:150px">
+                            <a asp-controller="Service"
+                               asp-action="Edit"
+                               asp-route-id="@item.ServiceId"
+                               class="btn btn-primary btn-sm">
+                                Edit
+                            </a>
+                            <button class="btn btn-danger btn-sm" onclick="deleteItem(@item.ServiceId)">Delete</button>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        function deleteItem(serviceId)
+        {
+            if(confirm("are you delete")){
+                window.location.href = '@Url.Action("Delete", "Service")' + '?id=' + serviceId;
+            }
+        }
+    </script>
+}
+
+
+
