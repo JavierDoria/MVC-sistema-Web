@@ -25,8 +25,8 @@
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Commnet</label>
-                <input type="text" class="form-control" id="txtCommnet" autocomplete="off">
+                <label class="form-label">Comment</label>
+                <input type="text" class="form-control" id="txtComment" autocomplete="off">
             </div>
             <div class="mb-3">
                 <label class="form-label">Fecha</label>
@@ -38,7 +38,7 @@
             </div>
 
             <div class="d-grid gap-2 d-md-block">
-                <button class="btn btn-success" type="button">GUARDAR</button>
+                <button class="btn btn-success" type="button" onclick="Save()">GUARDAR</button>
             </div>
         </form>
     </div>
@@ -57,6 +57,7 @@
     </style>
 }
 @section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script>
         $(document).ready(function() {
@@ -65,8 +66,11 @@
                    width:'100%'
                });
                 $("#cboTypeService").on("change", ShowServices);
+                const today = new Date().toISOString().split('T')[0];
+                $("#txtDate").val(today);
            });
-                   async function ShowServices() {
+
+        async function ShowServices() {
             const typeService = $("#cboTypeService").val();
             if (!typeService) return;
 
@@ -93,6 +97,35 @@
                 }
             } catch (error) {
                 console.error("Error al cargar servicios:", error);
+            }
+        }
+
+        async function Save(){
+            const modelDto ={
+                date: $("#txtDate").val(),
+                comment: $("#txtComment").val(),
+                totalAmount: $("#txtTotalAmount").val(),
+                serviceId: $("#cboService").val()
+            }
+            console.log(modelDto)
+            const response = await fetch("/Transaction/New",{
+                method: "POST",
+                headers: { 'Content-Type': 'application/json;charset=utf-8'},
+                body:JSON.stringify(modelDto)
+            })
+            if(response.ok){
+                const data =await response.json();
+                if(data !=0){
+                    Swal.fire({
+                        title:"Good job!",
+                    icon: "success"
+                    });
+                }else{
+                    Swal.fire({
+                        title:"Coult not register!",
+                        icon:"warning"
+                    })
+                }
             }
         }
            </script>
