@@ -11,7 +11,7 @@ namespace MoneyFlow.Controllers
         {
             return View();
         }
-    
+
         [HttpGet]
         public IActionResult ServicesByType(string typeService)
         {
@@ -28,5 +28,19 @@ namespace MoneyFlow.Controllers
             var response = _transactionManager.New(modelDto);
             return Ok(response);
         }
+
+        public IActionResult History()
+        {
+            return View();
+        }
+        [HttpGet]
+        public IActionResult historyTransaction(DateOnly startDate, DateOnly EndDate)
+        {
+            //EL userId esta por defecto en 1
+            var userId = 1;
+            var list = _transactionManager.GetHistory(startDate,EndDate, userId);
+            return Ok(new {data= list }); 
+        }
     }
+
 }

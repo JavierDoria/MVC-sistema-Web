@@ -146,6 +146,7 @@ C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\MoneyFlow.csproj.
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\MoneyFlow.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\MoneyFlow.RazorAssemblyInfo.cache
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\MoneyFlow.RazorAssemblyInfo.cs
+C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\MoneyFlow.sourcelink.json
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -227,4 +228,3 @@ C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\refint\MoneyFlow.
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\MoneyFlow.pdb
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\MoneyFlow.genruntimeconfig.cache
 C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\ref\MoneyFlow.dll
-C:\Users\jjjja\Desktop\c#\MoneyFlow\MoneyFlow\obj\Debug\net9.0\MoneyFlow.sourcelink.json
