@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\utilities\\sha256hasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\utilities\\sha256hasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\views\\service\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\views\\service\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\views\\acount\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\views\\acount\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\managers\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\managers\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\managers\\transactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\managers\\transactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\dto\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\dto\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\managers\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,19 +67,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Service\\Edit.cshtml",
-              "RelativeDocumentMoniker": "MoneyFlow\\Views\\Service\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Service\\Edit.cshtml",
-              "RelativeToolTip": "MoneyFlow\\Views\\Service\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MoneyFlow\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MoneyFlow\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-22T21:48:50.914Z",
+              "WhenOpened": "2026-01-10T16:51:30.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Sha256Hasher.cs",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Utilities\\Sha256Hasher.cs",
+              "RelativeDocumentMoniker": "MoneyFlow\\Utilities\\Sha256Hasher.cs",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Utilities\\Sha256Hasher.cs",
+              "RelativeToolTip": "MoneyFlow\\Utilities\\Sha256Hasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T16:51:28.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Service\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MoneyFlow\\Views\\Service\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Service\\Edit.cshtml",
+              "RelativeToolTip": "MoneyFlow\\Views\\Service\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-10T16:51:18.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MoneyFlow\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MoneyFlow\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-10T16:50:55.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoneyFlow\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MoneyFlow\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-10T16:50:33.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Acount\\Login.cshtml",
+              "RelativeDocumentMoniker": "MoneyFlow\\Views\\Acount\\Login.cshtml",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Acount\\Login.cshtml",
+              "RelativeToolTip": "MoneyFlow\\Views\\Acount\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-10T16:50:22.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Program.cs",
+              "RelativeDocumentMoniker": "MoneyFlow\\Program.cs",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Program.cs",
+              "RelativeToolTip": "MoneyFlow\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T16:50:12.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Managers\\UserManager.cs",
+              "RelativeDocumentMoniker": "MoneyFlow\\Managers\\UserManager.cs",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Managers\\UserManager.cs",
+              "RelativeToolTip": "MoneyFlow\\Managers\\UserManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T16:46:26.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransactionManager.cs",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Managers\\TransactionManager.cs",
+              "RelativeDocumentMoniker": "MoneyFlow\\Managers\\TransactionManager.cs",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Managers\\TransactionManager.cs",
+              "RelativeToolTip": "MoneyFlow\\Managers\\TransactionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T16:46:15.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TransactionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\DTO\\TransactionDTO.cs",
+              "RelativeDocumentMoniker": "MoneyFlow\\DTO\\TransactionDTO.cs",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\DTO\\TransactionDTO.cs",
+              "RelativeToolTip": "MoneyFlow\\DTO\\TransactionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T16:46:09.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Managers\\ServiceManager.cs",
               "RelativeDocumentMoniker": "MoneyFlow\\Managers\\ServiceManager.cs",
@@ -56,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "ServiceController.cs",
               "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Controllers\\ServiceController.cs",
               "RelativeDocumentMoniker": "MoneyFlow\\Controllers\\ServiceController.cs",
@@ -64,8 +217,7 @@
               "RelativeToolTip": "MoneyFlow\\Controllers\\ServiceController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T21:46:57.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T21:46:57.777Z"
             }
           ]
         }

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\models\\servicevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\models\\servicevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|c:\\users\\jjjja\\desktop\\c#\\moneyflow\\moneyflow\\views\\service\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{881C4408-3ABE-4A2A-9E26-796A9B98A800}|MoneyFlow\\MoneyFlow.csproj|solutionrelative:moneyflow\\views\\service\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ServiceVM.cs",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Models\\ServiceVM.cs",
+              "RelativeDocumentMoniker": "MoneyFlow\\Models\\ServiceVM.cs",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Models\\ServiceVM.cs",
+              "RelativeToolTip": "MoneyFlow\\Models\\ServiceVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T01:15:50.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Views\\Service\\Edit.cshtml",
               "RelativeDocumentMoniker": "MoneyFlow\\Views\\Service\\Edit.cshtml",
@@ -38,12 +55,11 @@
               "RelativeToolTip": "MoneyFlow\\Views\\Service\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-22T21:48:50.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T21:48:50.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Managers\\ServiceManager.cs",
               "RelativeDocumentMoniker": "MoneyFlow\\Managers\\ServiceManager.cs",
@@ -51,12 +67,11 @@
               "RelativeToolTip": "MoneyFlow\\Managers\\ServiceManager.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T21:47:59.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T21:47:59.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ServiceController.cs",
               "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\MoneyFlow\\MoneyFlow\\Controllers\\ServiceController.cs",
               "RelativeDocumentMoniker": "MoneyFlow\\Controllers\\ServiceController.cs",
@@ -64,8 +79,7 @@
               "RelativeToolTip": "MoneyFlow\\Controllers\\ServiceController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T21:46:57.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T21:46:57.777Z"
             }
           ]
         }
